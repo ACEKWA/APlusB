@@ -1,0 +1,165 @@
+A simple plan of the winter vacation
+(1)C++ Primer
+   1.associative container
+   2.review of sequencial container
+   3.generic algorithm
+   4.special facilities of standard libraries
+   5.standard libraries
+(2)CSP:
+刷2015-2019年试题，每日至少一题
+知识点参考提纲：
+字符串
+char[]
+cstring
+memset()
+输入无&
+gets(), fgets(stdin, ,);
+strcmp, strcpy, strcat
+
+string
+string
+cin, getline(cin,s)
+ios::sync_with_stdio(false); - > 只能用cin
+
+子串匹配
+暴力匹配
+hash哈希
+trie树 字典树
+kmp
+AC自动机 (trie树上做kmp)
+
+回文串
+暴力匹配 n^2
+manacher 马拉车 O(n)
+
+数论
+gcd() 求最大公约数 / 最小公倍数 辗转相除法
+快速幂 任意一个整数转换为 2^a+2^b+2^c
+求质数
+普通
+素数筛
+埃氏筛法
+O(n)欧拉筛
+乘法逆元
+用一个递推式 求一个结果
+题目要求取模
+递推式里有除法运算 不能直接在每一步取模
+
+排列组合
+求组合数 C(n,m) = n! / m!(n-m)!
+组合数可以用递推 （杨辉三角形）
+
+离散化
+分治
+扩展欧几里得
+矩阵乘法
+进制转换
+位运算
+
+排序算法
+选择 冒泡 排序
+快速排序 （不稳定）
+归并排序 逆序对
+桶排序（去重)
+重载运算符
+
+STL
+string
+queue
+deque (双端队列)
+stack
+priority_queue
+map （映射）stl的哈希表， 需要重载运算符号
+每次操作O(logn)
+set 集合，会去重
+vector
+bitset
+bool vis[] = true/false. 1 byte = 8 bits
+只用一个bit储存1/0
+lower_bound(), upper_bound(),
+sort
+unique
+只能在排好序，升序的序列用
+会把所有重复的元素，移到最后去
+==，cmp
+高精度
+
+搜索
+深度优先 （可行性问题）
+迭代搜索 （深度/求步数）
+记忆化搜索
+剪枝 / 各种黑暗剪枝 （套广搜来剪枝）
+启发式搜索
+A* / IDA
+广度优先 （求步数）
+spfa
+分层图
+
+暴力算法
+​ - 枚举
+模拟
+随机化
+递归/递推
+一维递推
+二维递推
+写暴力搜索，打表，找规律
+矩阵快速幂 优化
+贪心算法
+二分算法
+动态规划
+最长不下降子序列
+拦截导弹 O(n ^2 )
+O(n log n )算法*
+背包问题
+背包九讲
+普通DP
+递推比较像
+比较复杂
+-> 先暴搜
+-> 找规律 注意各类参数 1-i i-n
+状压DP
+树形DP
+图论
+度 欧拉回路
+拓扑排序（可能跟DP结合）
+最短路算法
+floyed 暴力
+dijkstra
+pq优先队列的优化（推荐）
+spfa 判负环（求最大路>判正环）
+强连通分量
+korasaju
+-> 正dfs + 反dfs
+tarjan
+low, dfn
+二分图匹配 （求最大匹配）
+匈牙利算法
+树上算法
+树的三种遍历方式
+最小生成树
+LCA 最近公共祖先
+tarjan
+倍增
+树链剖分 -> 区间修改/查询
+
+数据结构
+栈
+单调栈
+队列
+单调队列
+链表
+图论 -> 
+邻接链表
+并查集
+左偏树
+RMQ
+莫队（算法）
+前缀和
+差分
+树状数组
+ST表
+线段树
+lazy_tag
+可持久化线段树
+主席树   
+3.整理代码模板
